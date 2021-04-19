@@ -74,7 +74,14 @@ const comapnyX = {
         and: [propertyInsurance]
     }
 }
+const comapnyY = {
+    name: "Company Y",
+    requires: {
+        or : [[scooter, bike, motorcycle]],
+        and: [drivers]
+    }
+}
 export const Companies = [
-    comapnyA, comapnyB, comapnyC, comapnyD, comapnyE, comapnyF, comapnyG, comapnyH, comapnyJ, comapnyX
+    comapnyA, comapnyB, comapnyC, comapnyD, comapnyE, comapnyF, comapnyG, comapnyH, comapnyJ, comapnyX, comapnyY
 
 ]
